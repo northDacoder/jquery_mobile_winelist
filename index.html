@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		<title>Montage Wine App</title>
+		<html>
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable="no">
+			<meta name="apple-mobile-web-app-capable" content="yes">
+			<meta name="apple-mobile-web-app-status-bar-style" content="black">
+			<meta charset="UTF-8" />
+			
+			<link rel="apple-touch-startup-image" href="images/coverIphone4.jpg" />
+			<link rel="apple-touch-icon" sizes="114x114" href="" />
+			<link rel="apple-touch-icon" sizes="72x72" href="" />
+			<link rel="icon" type="image/png" href="" />
+			<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+			<link rel="stylesheet" type="text/css" href="css/styles.css" />
+			
+			<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+			<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+			
+			<!--PUT GOOGLE ANALYTICS HERE-->
+		</head>
+	
+<!--START OF HMTL5 CONTENT-->
+		<body>
+			
+			<!--Application Home Screen-->
+			<div data-role="page" id="home" data-theme="a">
+					<div data-role="content">
+						<ul data-role="listview" data-theme="b" data-inset="true">
+							<li><a href="#handcraftedCocktails" data-icon="alert">Handcrafted Cocktails/Beer</a></li>
+							<li><a href="#winesByGlass" data-icon="arrow-r">Wines by the Glass</a></li>
+							<li><a href="#halfBottles" data-icon="arrow-r">Half Bottles</a></li>
+							<li><a href="#somSelections" data-icon="arrow-r">Sommeliers' Selections</a></li>
+							<li><a href="#champagneSparkling" data-icon="arrow-r">Champagne & Sparkling Wine</a></li>
+							<li><a href="#newWorldWhiteWines" data-icon="arrow-r">New World White Wines</a></li>
+							<li><a href="#oldWorldWhiteWines" data-icon="arrow-r">Old World White Wines</a></li>
+							<li><a href="#interestingWhites" data-icon="arrow-r">Interesting Whites</a></li>
+							<li><a href="#newWorldRedWines" data-icon="arrow-r">New World Red Wines</a></li>
+							<li><a href="#oldWorldRedWines" data-icon="arrow-r">Old World Red Wines</a></li>
+							<li><a href="#interestingReds" data-icon="arrow-r">Interesting Reds</a></li>
+							<li><a href="#desserWines" data-icon="arrow-r">Dessert Wines, Ports and Madeira</a></li>
+						</ul>
+					</div>
+			</div>
+			
+			
+			<div data-role="page" id="handcraftedCocktails" data-theme="a">
+					<div data-role="header">
+						<h1>Hand Crafted Cocktails</h1><a href="#home" data-icon="arrow-l">Back</a>
+					</div>
+					
+					<div data-role="content">
+						<ul data-role="listview" data-theme="b" data-inset="true">
+							<li><a href="#apexMartini">Apex Martini</a></li>
+							<li><a href="#alpineSqueeze">Alpine Squeeze</a></li>
+							<li><a href="#cantankerous">Cantankerous</a></li>
+							<li><a href="#dvBreeze">DV Breeze</a></li>
+							<li><a href="#furryAntlers">Furry Antlers</a></li>
+							<li><a href="#mountainPeach">Mountain Peach</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Dessert Drinks</li>
+							<li><a href="#avalanche">Avalanche</a></li>
+							<li><a href="#minersSpike">Miner's Spike</a></li>
+							<li><a href="#dutchMacaroon">Dutch Macaroon</a></li>
+						</ul>
+					</div>
+			</div>
+			
+			
+<!-- WINES BY THE GLASS -->		
+			<div data-role="page" id="winesByGlass" data-theme="a">
+					<div data-role="content">
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Champagne and Sparkling</li>
+							<li><a href="#veuveClicquot">Veuve Clicquout</a></li>
+							<li><a href="#argyle">Argyle</a></li>
+							<li><a href="#marquesGelida">Marques Gelida</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">White and Rose</li>
+							<li><a href="#cakebreadCellars">Cakebread Cellars</a></li>
+							<li><a href="#dogPoint">Dog Point</a></li>
+							<li><a href="#santaMargherita">Santa Margherita</a></li>
+							<li><a href="#kVintners">K Vintners</a></li>
+							<li><a href="#oLeflaive">O Leflaive</a></li>
+							<li><a href="#flowers">Flowers</a></li>
+							<li><a href="#davidArthur">David Arthur</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Red</li>
+							<li><a href="#alexGambal">Alex Gambal</a></li>
+							<li><a href="#sokolBlosser">Sokol Blosser</a></li>
+							<li><a href="#dehesaLaGranja">Dehesa La Granja</a></li>
+							<li><a href="#connCreek">Conn Creek</a></li>
+							<li><a href="#ornellaia">Ornellaia</a></li>
+							<li><a href="#casaLapostolle">Casa Lapostolle</a></li>
+						</ul>
+					</div>
+			</div>
+<!-- WINES BY THE GLASS -->
+
+
+<!-- HALF BOTTLES -->			
+			<div data-role="page" id="halfBottles" data-theme="a">
+					<div data-role="content">
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Champagne and Sparkling Wine</li>
+							<li><a href="#billecartSalmon">Billecart-Salmon</a></li>
+							<li><a href="#krug">Krug</a></li>
+							<li><a href="#schramsberg">Schramsberg</a></li>
+							<li><a href="#veuveClicquot">Veuve Clicquot</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Sauvignon Blanc</li>
+							<li><a href="#stSupery">St. Supery</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Chardonnay</li>
+							<li><a href="#grgichHillsEstate">Grgich Hills Estate</a></li>
+							<li><a href="#josephDrouhin">Joseph Drouhn</a></li>
+							<li><a href="#louisJadot">Louis Jadot 2010</a></li>
+							<li><a href="#louisJadot">Louis Jadot 2006</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Pinot Noir</li>
+							<li><a href="#adelsheim">Adelsheim</a></li>
+							<li><a href="#axelana">Alexana</a></li>
+							<li><a href="#domaineDrouhin">Domaine Drouhin</a></li>
+							<li><a href="#josephDrouhin">Joseph Drouhin</a></li>
+							<li><a href="#louisJadot">Louis Jadot</a></li>
+							<li><a href="#saintsbury">Saintsbury</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Merlot</li>
+							<li><a href="#blackbird">Blackbird</a></li>
+							<li><a href="#duckhornVineyards">Duckhorn Vineyards</a></li>
+							<li><a href="#frogsLeap">Frogs Leap</a></li>
+							<li><a href="#shafer2009">Shafer 2009</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Cabernet Sauvignon and Blends</li>
+							<li><a href="#closDuVal">Clos Du Val</a></li>
+							<li><a href="#faust">Faust</a></li>
+							<li><a href="#frogsLeap">Frogs Leap 2008</a></li>
+							<li><a href="#josephPhelps">Joseph Phelps</a></li>
+							<li><a href="#opusOne">Opus One</a></li>
+							<li><a href="#parallel">Parallel</a></li>
+							<li><a href="#prideMountainVineyards">Pride Mountain Vineyards</a></li>
+							<li><a href="#revana">Revana</a></li>
+							<li><a href="#shafer2007">Shafer 2007</a></li>
+							<li><a href="#quintessa">Quintessa</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Zinfandel</li>
+							<li><a href="#seghesio">Seghesio</a></li>
+						</ul>
+						
+						<ul data-role="listview" data-theme="b" data-inset="true" data-divider-theme="a">
+							<li data-role="list-divider">Other Reds</li>
+							<li><a href="#muga">Muga</a></li>
+						</ul>
+					</div>
+			</div>
+<!-- HALF BOTTLES -->
+		
+		</body>
+</html>
+
+

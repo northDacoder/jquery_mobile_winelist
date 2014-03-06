@@ -1,0 +1,51 @@
+/* iPad [landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+html								{margin: 0 !important; padding: 0 !important; height: 100%;}
+body								{margin: 0 !important; padding: 0 !important; height: 100%; position: absolute !important; bottom: 0; left: 0;}
+
+#home								{}
+
+#one								{}
+#two								{}
+#three								{}
+#four								{}
+#five								{}
+#six								{}
+#seven								{}
+#eight								{}
+#nine								{}
+#ten								{}
+
+#welcome							{font-size: 30px; color: rgba(255,255,255,.5); text-align: center; font-family: american typewriter;}
+
+#sideBarNav							{margin: 0; padding: 0; width: 180px; height: 100%; box-shadow: 1px 1px 2px #222; float: left; position: absolute; left: 0; top: 0; background: #333; font-family: helvetica;}
+#sideBarNav a						{color: rgba(255,255,255,.9);}
+#mainContent						{width: 880px; height: 100%; padding-bottom: 20px; margin-left: 200px;}
+#mainNav							{width: 824px; margin-left: 0 !important; position: absolute; bottom: -155px; left: -13px;}
+.textBox							{margin: 0 0 0 15px; padding: 10px; height: 460px; width: 85%; background: #444; border-radius: 5px; box-shadow: 0px 0px 8px white; margin-bottom: 20px;}
+.contentAll							{width: 1024px; height: 768px; background: #111;}
+
+#fixedNav 							{}
+
+#emergencyBtn						{background: red; color: white;}
+a#emergencyBtn 						{color: white; text-shadow: 2px 2px 2px #111; height: 180px; font-size: 25px; text-align: center;}
+
+div#crossH							{width: 80px; height: 15px; background: white; z-index: 1000001; position: absolute; left: 48px; bottom: 90px; border: dotted 2px red}
+div#crossV							{height: 80px; width: 15px; background: white; z-index: 1000001; position: absolute; left: 80px; bottom: 55px; border: dotted 2px red}
+
+
+/* iPad [portrait] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+body								{margin: 0 !important; padding: 0 !important; width: 100% !important; height: 100% important;}
+}
+
+/* iPhone [portrait] */
+@media only screen and (max-device-width: 480px){
+body								{text-shadow: none !important; width: 100% !important; padding: 100% !important; margin: 0 !important; padding: 0 !important; background: #333;}
+.hide								{display: block !important;}
+}
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){}
+
